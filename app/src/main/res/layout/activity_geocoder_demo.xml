@@ -11,17 +11,20 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Run Geocoder"
-            android:id="@+id/btnRunGeocoder"
+            android:text="Run Geocoder w/ bounding box"
+            android:id="@+id/btnRunGeocoderBoundingBox"
             android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
             android:layout_marginTop="53dp"/>
-    <TextView
+    <ScrollView
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtResults" android:layout_below="@+id/btnRunGeocoder"
-            android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
-            android:layout_marginTop="37dp" android:text="Results will be shown here"
-            android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+            android:layout_height="fill_parent"
+            android:paddingTop="15dp"
+            android:layout_below="@+id/btnRunGeocoder" android:layout_centerHorizontal="true">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtResults"/>
+    </ScrollView>
     <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -29,7 +32,11 @@
             android:hint="Enter search word"
             android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_alignRight="@+id/btnRunGeocoder"
-            android:layout_alignEnd="@+id/btnRunGeocoder" android:singleLine="true"/>
+            android:layout_alignRight="@+id/btnRunGeocoderBoundingBox"
+            android:layout_alignEnd="@+id/btnRunGeocoderBoundingBox" android:singleLine="true"
+            android:text="Airport"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Run Geocoder (no bounding box)" android:id="@+id/btnRunGeocoder"
+            android:layout_below="@+id/btnRunGeocoderBoundingBox" android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
