@@ -3,7 +3,9 @@ GeocoderDemo
 
 Demo that illustrates a problem with the Android Geocoder when geocoding with a bounding box.
 
-See https://code.google.com/p/android/issues/detail?id=75575
+AOSP issue - https://code.google.com/p/android/issues/detail?id=75575
+
+StackOverflow - http://stackoverflow.com/questions/25621087/android-geocoder-getfromlocationname-stopped-working-with-bounds
 
 **Usage:**
 
