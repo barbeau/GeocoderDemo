@@ -14,8 +14,8 @@ See https://code.google.com/p/android/issues/detail?id=75575
 
 **What I see:**
 
-When running the Geocoder with the bounding box, the same set of very generic results are always shown
-no matter what you enter in the search box.
+When running the Geocoder with the bounding box, the same small set of very generic results are 
+always shown no matter what you enter in the search box.
 
 **Expected behavior:**
 
