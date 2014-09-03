@@ -5,8 +5,6 @@ Demo that illustrates a problem with the Android Geocoder when geocoding with a 
 
 AOSP issue - https://code.google.com/p/android/issues/detail?id=75575
 
-StackOverflow - http://stackoverflow.com/questions/25621087/android-geocoder-getfromlocationname-stopped-working-with-bounds
-
 **Usage:**
 
  * Run the project
@@ -38,3 +36,11 @@ I've tested this using a Samsung Galaxy S3 with Android 4.4.4.
 **Notes:**
 
 The `Geocoder.isPresent` value will be output to Logcat.  In my tests, this always shows `true`.
+
+**Related Links:**
+
+* StackOverflow - http://stackoverflow.com/questions/25621087/android-geocoder-getfromlocationname-stopped-working-with-bounds
+
+* Android Developers group - https://groups.google.com/forum/#!topic/android-developers/KuZDVRXyTc0
+
+* G+ post - https://plus.google.com/+SeanBarbeau/posts/Mm5YwzeUoZV
