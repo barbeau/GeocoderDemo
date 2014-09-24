@@ -18,6 +18,8 @@ Demo that illustrates a problem with the Android Geocoder when geocoding with a 
 When running the Geocoder with the bounding box, the same small set of very generic results are 
 always shown no matter what you enter in the search box.
 
+![Screenshot of bad results](http://i.stack.imgur.com/ZjYka.png)
+
 **Expected behavior:**
 
 When running the Geocoder with the bounding box, you should see different results depending on the
