@@ -4,6 +4,7 @@ GeocoderDemo
 Demo that illustrates a problem with the Android Geocoder when geocoding with a bounding box.
 
 AOSP issue - https://code.google.com/p/android/issues/detail?id=75575
+gmaps-api-issue - https://code.google.com/p/gmaps-api-issues/issues/detail?id=7142
 
 **Usage:**
 
