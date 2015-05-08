@@ -47,3 +47,7 @@ The `Geocoder.isPresent` value will be output to Logcat.  In my tests, this alwa
 * Android Developers group - https://groups.google.com/forum/#!topic/android-developers/KuZDVRXyTc0
 
 * G+ post - https://plus.google.com/+SeanBarbeau/posts/Mm5YwzeUoZV
+
+**License:**
+
+This demo is licensed under [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
